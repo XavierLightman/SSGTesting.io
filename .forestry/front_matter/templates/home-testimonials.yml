@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: title
+pages:
+- content/home-testimonials/have-used-this-app-for-quite-some-time.this-app-makes-my-safety-inspections-seamless.i-truly-regular-inspections.md
