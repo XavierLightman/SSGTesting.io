@@ -13,4 +13,5 @@ fields:
     required: false
   label: comment
 pages:
+- content/home-testimonials/amazing.md
 - content/home-testimonials/have-used-this-app-for-quite-some-time.this-app-makes-my-safety-inspections-seamless.i-truly-regular-inspections.md
