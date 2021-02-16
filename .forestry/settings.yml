@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/home-testimonials
+  label: Home Testimonials
+  create: all
+  match: "**/*.md"
+  templates:
+  - home-testimonials
+- type: directory
   path: content/home-steps
   label: Home Steps
   create: documents
