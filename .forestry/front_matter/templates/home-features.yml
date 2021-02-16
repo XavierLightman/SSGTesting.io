@@ -1,0 +1,35 @@
+---
+label: Home Features
+hide_body: true
+fields:
+- name: feature_title
+  type: text
+  config:
+    required: false
+  label: Feature Title
+- name: feature_description
+  type: text
+  config:
+    required: false
+  label: Feature Description
+- name: feature_icon
+  type: file
+  config:
+    maxSize: 64
+  label: Feature Icon
+- name: feature_order
+  type: number
+  label: Feature Order
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+pages:
+- content/home-features/Draw Annotations.md
+- content/home-features/Generate Reports.md
+- content/home-features/Sync between devices*.md
+- content/home-features/Web Access*.md

@@ -1,0 +1,44 @@
+---
+label: Home Hero Banner
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: paragraph_one
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Paragraph One
+- name: paragraph_two
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Paragraph Two
+- name: apple_app_store_link
+  type: text
+  config:
+    required: false
+  label: Apple App Store Link
+- name: google_play_store_link
+  type: text
+  config:
+    required: false
+  label: Google Play Store Link
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+pages:
+- content/home-hero/professional-site-audit-management.md

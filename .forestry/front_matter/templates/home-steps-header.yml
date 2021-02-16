@@ -1,0 +1,27 @@
+---
+label: Home Steps Header
+hide_body: true
+fields:
+- name: home_steps_header
+  type: text
+  config:
+    required: false
+  label: Home Steps Header
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
+- name: link_title_one
+  type: text
+  config:
+    required: false
+  label: Link Title One
+- name: link_title_two
+  type: text
+  config:
+    required: false
+  label: Link Title Two
+pages:
+- content/home-steps/header/Home Steps Header.md
+- content/home-steps/header/Home Steps Header.md

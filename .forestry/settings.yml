@@ -1,0 +1,45 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: content/home-steps
+  label: Home Steps
+  create: documents
+  match: "**/*.md"
+  templates:
+  - home-steps-list
+- type: directory
+  path: content/home-steps/header
+  label: Home Steps Header
+  create: documents
+  match: "**/*.md"
+  templates:
+  - home-steps-header
+- type: directory
+  path: content/home-hero
+  label: Home Hero Banner
+  create: documents
+  match: "**/*.md"
+  templates:
+  - home-hero-banner
+- type: directory
+  path: content/home-features
+  label: Home Features
+  create: documents
+  match: "**/*.md"
+  templates:
+  - home-features
+upload_dir: static/images
+public_path: images
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  install_dependencies_command: npm install
+  preview_docker_image: forestryio/node:12
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: npm run develop
