@@ -1,0 +1,36 @@
+---
+label: It All Begins Here
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: summary
+  type: text
+  config:
+    required: false
+  label: summary
+- name: apple_url
+  type: text
+  config:
+    required: false
+  label: apple_url
+- name: google_url
+  type: text
+  config:
+    required: false
+  label: google_url
+- name: apple_image
+  type: file
+  config:
+    maxSize: 64
+  label: apple_image
+- name: google_image
+  type: file
+  config:
+    maxSize: 64
+  label: google_image
+pages:
+- content/common/it-all-begins-here.md

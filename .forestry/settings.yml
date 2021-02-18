@@ -5,6 +5,55 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/features
+  label: Features
+  create: documents
+  match: "**/*.md"
+  templates:
+  - features
+- type: directory
+  path: content/pricing/pricing-plans
+  label: Pricing Plans
+  create: documents
+  match: "**/*.md"
+  templates:
+  - pricing-plans
+- type: directory
+  path: content/pricing/pricing-features
+  label: Pricing Features
+  create: documents
+  match: "**/*.md"
+  templates:
+  - pricing-features
+- type: directory
+  path: content/common/footer-rights
+  label: Footer Rights
+  create: documents
+  match: "**/*.md"
+  templates:
+  - footer-rights
+- type: directory
+  path: content/common/footer-policies
+  label: Footer Policies
+  create: documents
+  match: "**/*.md"
+  templates:
+  - footer-policies
+- type: directory
+  path: content/common/footer-links
+  label: Footer Links
+  create: documents
+  match: "**/*.md"
+  templates:
+  - footer-links
+- type: directory
+  path: content/common
+  label: It All Begins Here
+  create: documents
+  match: "**/*.md"
+  templates:
+  - it-all-begins-here
+- type: directory
   path: content/home-testimonials
   label: Home Testimonials
   create: all

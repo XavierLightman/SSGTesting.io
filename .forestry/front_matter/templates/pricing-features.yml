@@ -1,0 +1,28 @@
+---
+label: Pricing Features
+hide_body: false
+fields:
+- name: feature_title
+  type: text
+  config:
+    required: false
+  label: Feature Title
+- name: default
+  type: boolean
+  label: default
+- name: monthly
+  type: boolean
+  label: monthly
+- name: annual
+  type: boolean
+  label: annual
+- name: order
+  type: number
+  label: order
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 

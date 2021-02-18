@@ -1,0 +1,33 @@
+---
+label: Pricing Plans
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: price
+  type: text
+  config:
+    required: false
+  label: price
+- name: note
+  type: text
+  config:
+    required: false
+  label: note
+- name: order
+  type: number
+  label: order
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+pages:
+- content/pricing/pricing-plans/annual-subscription.md
+- content/pricing/pricing-plans/monthly-subscription.md
+- content/pricing/pricing-plans/site-audit-pro.md

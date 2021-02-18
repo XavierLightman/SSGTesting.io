@@ -1,8 +1,8 @@
 ---
-order: 3
+order: 4
 title: " Share"
 description: Share your report by email, text or instant messaging, file sharing services
   or any other suitable App that's installed on your device.
-icon: "/images/share.svg"
+icon: images/share.svg
 
 ---

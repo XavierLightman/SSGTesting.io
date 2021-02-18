@@ -13,5 +13,15 @@ fields:
     required: false
   label: comment
 pages:
+- content/home-testimonials/a-must-have-tool.md
+- content/home-testimonials/absolutely-amazing-time-saver.md
+- content/home-testimonials/amazing-1.md
 - content/home-testimonials/amazing.md
+- content/home-testimonials/great-app-for-property-managers-1.md
+- content/home-testimonials/great-app-for-property-managers.md
+- content/home-testimonials/great-app.md
+- content/home-testimonials/great-professional-app.md
 - content/home-testimonials/have-used-this-app-for-quite-some-time.this-app-makes-my-safety-inspections-seamless.i-truly-regular-inspections.md
+- content/home-testimonials/perfect-management-tool.md
+- content/home-testimonials/productive-and-professional.md
+- content/home-testimonials/the-best-on-site-reporting-app.md

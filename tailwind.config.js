@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: [
     './components/**/*.{vue,js}',
@@ -34,11 +36,17 @@ module.exports = {
         "sapBlackTransparent": "rgba(0,0,0, 0.4)",
         "sapBrightRedHover": "#ad0d0d",
         "sapAccentBlueHover": "#1489ab",
-      }
+        orange: colors.orange,
+      },
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }

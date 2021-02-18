@@ -1,0 +1,18 @@
+---
+label: Footer Policies
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: url
+  type: text
+  config:
+    required: false
+  label: url
+pages:
+- content/common/footer-policies/cookie-policy.md
+- content/common/footer-policies/privacy-policy.md
+- content/common/footer-policies/terms-conditions.md

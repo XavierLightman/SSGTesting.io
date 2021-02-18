@@ -20,13 +20,23 @@
                 <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                     {{ heroContent.paragraph_two }}                
                 </p>
+                <div class="flex flex-row justify-center md:justify-between max-w-sm">
+                  <a :href="heroContent.apple_app_store_link" target="_blank" class="cursor-pointer mt-8 w-full inline-flex items-center justify-center text-base font-medium rounded-md sm:w-auto mr-3">
+                    <img :src="heroContent.apple_image"/>
+                  </a>
+                  <a :href="heroContent.google_play_store_link" target="_blank" class="cursor-pointer mt-8 w-full inline-flex items-center justify-center text-base font-medium rounded-md sm:w-auto">
+                    <img :src="heroContent.google_image"/>
+                  </a>
+                </div>
               </div>
             </div>
+
             <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
               <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                 <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" :src="heroContent.image">
               </div>
             </div>
+          
           </div>
         </div>
       </div>
