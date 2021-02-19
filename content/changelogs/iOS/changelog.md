@@ -1,6 +1,6 @@
 # iOS
 
-## 8.0
+## 8.0.0
 ### New
 * Annotation editor now has the ability to zoom. 
 * Annotation Editor now has a blur tool.
